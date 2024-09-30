@@ -6,7 +6,7 @@
 
 ![Poster](https://github.com/Vivek9Chavan/EgoVis24/blob/main/(ECCV2024%20Workshop)%20Poster_VISION.jpg)
 
-## Code and resources will be available here soon.
+## Code; Dataset, and resources will be available here soon.
 
 ## Acknowledgements
 
