@@ -1,38 +1,30 @@
-# Project Aria Tools
+# On the Application of Egocentric Computer Vision to Industrial Inspection
 
-Project Aria Tools is a suite of C++/Python utilities to help researchers expand the horizons of Augmented Reality, Machine Perception and Artificial Intelligence with [Project Aria](https://projectaria.com/). It is designed to make it easier to use Aria data and its open datasets.
+[[`Paper`](https://drive.google.com/file/d/1js-4P-NdWX68ouwjCD6eDOyMhD-a_A6d/view?usp=sharing)] [[`Poster`](https://drive.google.com/file/d/1UrWMS26FOmq9uBtISKIeJSVubGSdUn71/view?usp=sharing)]
 
-<div align="center">
-  <a href="https://github.com/facebookresearch/projectaria_tools/releases"><img alt="Latest Release" src="https://img.shields.io/github/v/release/facebookresearch/projectaria_tools.svg" /></a>
-  <a href="https://github.com/facebookresearch/projectaria_tools/blob/main/LICENSE">
-  <img alt="license" src="https://img.shields.io/badge/License-Apache--2.0-blue.svg"/></a>
-  <a href="https://pepy.tech/project/projectaria_tools">
-  <img alt="Downloads" src="https://pepy.tech/badge/projectaria_tools"></a>
-</div>
+**Abstract:** Conventional Industrial Inspection is often carried out with dedicated digitisation and monitoring systems. This approach offers superior accuracy and reliability. However, it poses limitations w.r.t. setup costs and location requirements. Recently, Egocentric Vision has been getting increased attention from the community. We investigate the applicability of egocentric wearable devices for data collection and labelling for classification, detection, segmentation, and defect/anomaly detection use cases. We also explore scenarios where egocentric vision would be superior for data collection and inspection. Our approach involves a multimodal data collection pipeline, where the Subject-Matter Expert (SME) labels and annotates the data in natural language during digitisation, which is then processed to yield an annotated dataset for downstream applications. We also incorporate useful indicators, such as user eye gaze (via wearable glasses) and hand tracking to understand and annotate the regions of interest in the collected data. Our investigation shows a domain gap when generalising the performance of Machine Learning (ML) models trained on egocentric data to allocentric/exocentric use cases. Further, we discuss the limitations and practical use cases of our approach, considering the hardware and power consumption requirements.
 
-## Interactive python notebook playground (Google Colab)
+![Poster](https://github.com/Vivek9Chavan/ADCM/blob/main/(ECCV2024%20Workshop)%20VISION.jpg)
 
-- [![Aria VRS Data Provider](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/facebookresearch/projectaria_tools/blob/1.5.0/core/examples/dataprovider_quickstart_tutorial.ipynb) Aria VRS Data Provider
-- [![Aria Machine Perception Services](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/facebookresearch/projectaria_tools/blob/1.5.0/core/examples/mps_quickstart_tutorial.ipynb) Aria Machine Perception Services
-- [![Aria Digital Twin Dataset](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/facebookresearch/projectaria_tools/blob/1.5.0/projects/AriaDigitalTwinDatasetTools/examples/adt_quickstart_tutorial.ipynb) Aria Digital Twin Dataset
-- [![Aria Everyday Activities Dataset](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/facebookresearch/projectaria_tools/blob/1.5.0/projects/AriaEverydayActivities/examples/aea_quickstart_tutorial.ipynb) Aria Everyday Activities Dataset
+## Code and resources will be available here soon.
 
-## Documentation
+## Acknowledgements
 
-- [Documentation](https://facebookresearch.github.io/projectaria_tools/docs/intro) |
-[![Documentation](https://github.com/facebookresearch/projectaria_tools/actions/workflows/publish-website.yml/badge.svg)](https://github.com/facebookresearch/projectaria_tools/actions/workflows/publish-website.yml)
+Our code borrows heavily form the following repositories:
 
-## Open Datasets
+https://github.com/facebookresearch/projectaria_tools
 
-- [Aria Everyday Activities](https://www.projectaria.com/datasets/aea/)
-- [Aria Digital Twin](https://www.projectaria.com/datasets/adt)
-- [Aria Synthetic Environments](https://www.projectaria.com/datasets/ase)
+https://github.com/facebookresearch/projectaria_eyetracking
 
+<a name="bibtex"></a>
+## Citation
 
-## How to Contribute
-
-We welcome contributions! Go to [CONTRIBUTING](https://github.com/facebookresearch/projectaria_tools/blob/main/.github/CONTRIBUTING.md) and our [CODE OF CONDUCT](https://github.com/facebookresearch/projectaria_tools/blob/main/.github/CODE_OF_CONDUCT.md) for how to get started.
-
-## License
-
-Project Aria Tools are released by Meta under the [Apache 2.0 license](https://github.com/facebookresearch/projectaria_tools/blob/main/LICENSE).
+If you find our work or any of our materials useful, please cite our papers:
+```
+@InProceedings{Chavan_2024_ECCVW,
+    author    = {Chavan, Vivek and Heimann, Oliver and Kr\"uger, J\"org},
+    title     = {On the Application of Egocentric Computer Vision to Industrial Inspection},
+    booktitle = {European Conference on Computer Vision (ECCV) Workshops},
+    month     = {October},
+    year      = {2024}
+}
